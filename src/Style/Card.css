@@ -12,27 +12,29 @@
 
   }
   
-  .card .card-image{
-    width: 250px;
-    height: 250px;
-    border-radius: 5%;
+  .card .card-image {
+    width: 100%; /* Utiliser toute la largeur disponible dans la carte */
+    height: 250px; /* Hauteur fixe pour l'image */
+    border-radius: 10px; /* Assurez-vous que le rayon de bordure est cohérent */
+    object-fit: cover; /* Adapter l'image en conservant son ratio */
+    object-position: center; /* Centrer l'image horizontalement et verticalement */
     margin-bottom: 10px;
   }
   
-  .card .card-title{
+  .card .card-title {
     height: 40px;
     font-family: Arial, sans-serif;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0;
     color: hsl(0, 0%, 20%);
   }
   
-  .card .card-description{
+  .card .card-description {
     font-family: Arial, sans-serif;
     color: hsl(0, 0%, 30%);
-    height: 110px; /* Exemple de hauteur maximale */
-    overflow: auto; /* Activer la scrollbar si nécessaire */
+    height: 110px; /* Hauteur maximale de la description */
+    overflow: auto; /* Activer la barre de défilement si nécessaire */
   }
   
-  .ical{
+  .ical {
     margin-top: 10px;
   }
