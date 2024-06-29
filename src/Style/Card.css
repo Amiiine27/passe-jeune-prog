@@ -1,0 +1,38 @@
+.card{
+    border: 1px solid #f4f3f3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #0000003f;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 545px;
+    display: inline-block;
+    vertical-align: top; /* Ajustement de l'alignement vertical */
+
+  }
+  
+  .card .card-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+  }
+  
+  .card .card-title{
+    height: 40px;
+    font-family: Arial, sans-serif;
+    margin: 10px 0px 10px 0px;
+    color: hsl(0, 0%, 20%);
+  }
+  
+  .card .card-description{
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 30%);
+    height: 110px; /* Exemple de hauteur maximale */
+    overflow: auto; /* Activer la scrollbar si nécessaire */
+  }
+  
+  .ical{
+    margin-top: 10px;
+  }
