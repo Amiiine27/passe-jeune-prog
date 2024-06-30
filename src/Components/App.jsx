@@ -1,5 +1,6 @@
 import Card from './Card'
 import '../Style/Card.css'
+import '../Style/index.css'
 import MRSPC from "../assets/MRSPC.jpg"
 import TFL from "../assets/TFL.jpeg"
 import ATL from "../assets/ATL.jpg"

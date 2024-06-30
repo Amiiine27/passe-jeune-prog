@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ICalButton from './iCal.jsx';
+import GoogleMaps from './GoogleMaps.jsx';
 
 function Card({ img, alt, title, desc, descr, loc, jour, DDB, DDF }) {
   // Vérifier si les props pour ICalButton sont valides
@@ -18,8 +19,8 @@ function Card({ img, alt, title, desc, descr, loc, jour, DDB, DDF }) {
       <p className="card-description">{desc}</p>
 
       <div className="buttons">
-        {isICalButtonValid && <ICalButton title={title} descr={descr} loc={loc} DDB={DDB} DDF={DDF} />}
-          
+      {isICalButtonValid && <ICalButton className="ical-button" title={title} descr={descr} loc={loc} DDB={DDB} DDF={DDF} />}
+      <GoogleMaps className="google-maps-button" loc={loc}/>
       </div>
       
     </div>

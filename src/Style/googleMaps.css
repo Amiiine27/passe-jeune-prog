@@ -1,0 +1,28 @@
+.image-button {
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #c2c2c2;
+    color: #c2c2c2;
+    text-align: center;
+    padding: 0 10px; /* Ajout de padding pour les bordures */
+    gap: 10px; /* Espace entre l'image et le texte */
+  }
+  
+  /* Effet de survol */
+  .image-button:hover {
+    opacity: 0.8; /* Rendre le bouton légèrement transparent au survol */
+  }
+  
+  button img {
+    width: 40px;
+    height: 40px;
+  }
+  
