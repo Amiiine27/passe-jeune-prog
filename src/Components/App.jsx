@@ -7,6 +7,7 @@ import ATL from "../assets/ATL.jpg"
 import CDS from "../assets/CDS.jpg"
 import BGT from "../assets/BGT.jpg"
 import CRT from "../assets/CRT.jpeg"
+import Header from './Header'
 
 function App() {
   const formattage = (jour, heure) => {
@@ -86,6 +87,7 @@ function App() {
 
   return (
     <>
+    <Header />
     <div className="card-container">
       {cardsData.map((card, index) => (
         <Card 

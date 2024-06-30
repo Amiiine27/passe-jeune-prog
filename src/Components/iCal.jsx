@@ -45,7 +45,7 @@ END:VCALENDAR`;
     <>
         <button className="image-button" onClick={handleDownload}> 
             <img src={ical} />
-            Ajouter a iCal !
+            Ajouter à iCal !
         </button>
     </>
   )

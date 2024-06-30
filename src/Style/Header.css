@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "milano";
+    src: url("../assets/Miland.otf");
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    width: 100%; /* Largeur totale */
+    background-color: #d1dfff; /* Assure que le header est au-dessus du reste du contenu */
+    position: ;
+  }
+
+  
+
+.logo {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo img {
+    width: 100px; /* Taille de votre choix pour le logo */
+    height: auto;
+    margin-right: 10px; /* Espace entre le logo et la ligne verticale */
+  }
+  
+  .vertical-line {
+    margin-top: 20px;
+    height: 75px; /* Hauteur de la ligne verticale */
+    width: 2px; /* Largeur de la ligne verticale */
+    background-color: #012542; /* Couleur de la ligne verticale */
+    margin-right: 10px; /* Espacement à droite de la ligne verticale */
+  }
+  
+  .horizontal-line {
+    border: none; /* Supprime la bordure par défaut de <hr> */
+    border-top: 4px solid #000; /* Bordure supérieure pour la ligne horizontale */
+    margin-top: 20px; /* Espacement au-dessus de la ligne horizontale */
+  }
+
+  .nom {
+    margin-top: 23px;
+    font-family: "milano";
+    color: #012542;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligner les éléments à gauche */
+  }
+  
+  .nom p {
+    margin: 0; /* Supprimer les marges par défaut des paragraphes */
+  }
+  
+  

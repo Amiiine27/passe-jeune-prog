@@ -1,6 +1,6 @@
 import React from 'react';
 import maps from '../assets/maps.png';
-import '../Style/googleMaps.css';
+import '../Style/ical.css';
 
 function GoogleMaps({ loc }) {
   const handleButtonClick = () => {
@@ -12,7 +12,7 @@ function GoogleMaps({ loc }) {
   return (
     <button className="image-button" onClick={handleButtonClick}>
       <img src={maps} alt="Google Maps" />
-      Voir l'itinéraire !
+      Voir l'itinéraire
     </button>
   );
 }

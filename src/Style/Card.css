@@ -1,7 +1,7 @@
 .card {
   border: 1px solid #f4f3f3;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px #0000003f;
+  border-radius: 7px;
+  /*box-shadow: 5px 5px 5px #0000003f;*/
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -9,6 +9,7 @@
   height: 545px;
   display: inline-block;
   vertical-align: top; /* Ajustement de l'alignement vertical */
+  background-color: #f4f3f3;
 }
 
 .card-container {
@@ -20,7 +21,7 @@
 .card .card-image {
   width: 100%; /* Utiliser toute la largeur disponible dans la carte */
   height: 250px; /* Hauteur fixe pour l'image */
-  border-radius: 10px; /* Assurez-vous que le rayon de bordure est cohérent */
+  border-radius: 7px; /* Assurez-vous que le rayon de bordure est cohérent */
   object-fit: cover; /* Adapter l'image en conservant son ratio */
   object-position: center; /* Centrer l'image horizontalement et verticalement */
   margin-bottom: 10px;
@@ -30,12 +31,13 @@
   height: 40px;
   font-family: Arial, sans-serif;
   margin: 10px 0;
-  color: hsl(0, 0%, 20%);
+  color: #012542;
+  -webkit-text-stroke: 0.5px black; /* Bordure noire de 1 pixel (pour les anciennes versions de WebKit) */
 }
 
 .card .card-description {
   font-family: Arial, sans-serif;
-  color: hsl(0, 0%, 30%);
+  color: #000;
   height: 110px; /* Hauteur maximale de la description */
   overflow: auto; /* Activer la barre de défilement si nécessaire */
 }
