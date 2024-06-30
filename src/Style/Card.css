@@ -42,7 +42,7 @@
 
 .buttons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center; /* Assure l'alignement vertical */
   gap: 8px;
 }
