@@ -37,10 +37,30 @@
 
 .card .card-description {
   font-family: Arial, sans-serif;
-  color: #000;
+  color: hsl(0, 0%, 30%);
   height: 110px; /* Hauteur maximale de la description */
-  overflow: auto; /* Activer la barre de défilement si nécessaire */
+  overflow-y: auto; /* Activation de la scrollbar uniquement si nécessaire */
+  
+  /* Personnalisation de la scrollbar */
+  scrollbar-width: 10px; /* Firefox */
+  scrollbar-color: rgba(199, 199, 199, 0.242) rgb(199, 199, 199, 0.242); /* Firefox */
 }
+
+/* WebKit */
+.card .card-description::-webkit-scrollbar {
+  width: 12px; /* Largeur de la scrollbar */
+}
+
+.card .card-description::-webkit-scrollbar-track {
+  background: rgb(199, 199, 199, 0.242); /* Couleur de fond de la scrollbar */
+}
+
+.card .card-description::-webkit-scrollbar-thumb {
+  background-color: rgb(199, 199, 199, 0.242); /* Couleur de la poignée */
+  border-radius: 6px; /* Arrondi des bords de la poignée */
+  border: 3px solid rgb(199, 199, 199, 0.242); /* Bordure de la poignée */
+}
+
 
 .buttons {
   display: flex;
