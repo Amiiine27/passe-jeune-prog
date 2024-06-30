@@ -35,17 +35,11 @@ END:VCALENDAR`;
     // Créer un lien de téléchargement
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = 'event.ics';
+    link.download = `${title}.ics`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
-
-  /*return (
-    <>
-    <button className="image-button" onClick={handleDownload}> Ajouter à iCal</button>
-    </>
-  );*/
 
   return(
     <>

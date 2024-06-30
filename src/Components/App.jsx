@@ -5,6 +5,7 @@ import TFL from "../assets/TFL.jpeg"
 import ATL from "../assets/ATL.jpg"
 import CDS from "../assets/CDS.jpg"
 import BGT from "../assets/BGT.jpg"
+import CRT from "../assets/CRT.jpeg"
 
 function App() {
   const formattage = (jour, heure) => {
@@ -67,12 +68,24 @@ function App() {
       //jour: "",
       //DDB: "",
       //DDF: "" 
+    },
+    {
+      img: CRT,
+      alt: "Image représentative de la Fondation Cartier",
+      title: "La Fondation Cartier",
+      desc: "La Fondation Cartier pour l’art contemporain a été créée en 1984 par la Maison Cartier et son président Alain-Dominique Perrin. Institution privée entièrement consacrée à l’art contemporain",
+      descr: "Découverte des expositions de la Fondation Cartier pour l'Art Contemporain",
+      loc: "261 Bd Raspail, 75014 Paris",
+      //jour: "",
+      //DDB: "",
+      //DDF: "" 
     }
 
   ];
 
   return (
     <>
+    <div className="card-container">
       {cardsData.map((card, index) => (
         <Card 
           key={index}
@@ -87,6 +100,7 @@ function App() {
           DDF={card.DDF}
         />
       ))}
+    </div>
     </>
   )
 }
