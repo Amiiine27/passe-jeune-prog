@@ -1,11 +1,11 @@
 import Header from '../Components/Header.jsx'
 
-export default function Home(){
+export default function About(){
 
     return(
         <>
         <Header/>
-        <h1>Homepage</h1>
+        <h1>About</h1>
         </>
     )
 }
