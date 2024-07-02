@@ -1,13 +1,13 @@
-import Card from './Card'
-import '../Style/Card.css'
-import '../Style/index.css'
-import MRSPC from "../assets/MRSPC.jpg"
-import TFL from "../assets/TFL.jpeg"
-import ATL from "../assets/ATL.jpg"
-import CDS from "../assets/CDS.jpg"
-import BGT from "../assets/BGT.jpg"
-import CRT from "../assets/CRT.jpeg"
-import Header from './Header'
+import Card from './Components/Card'
+import './Style/Card.css'
+import './Style/index.css'
+import MRSPC from "./assets/MRSPC.jpg"
+import TFL from "./assets/TFL.jpeg"
+import ATL from "./assets/ATL.jpg"
+import CDS from "./assets/CDS.jpg"
+import BGT from "./assets/BGT.jpg"
+import CRT from "./assets/CRT.jpeg"
+import Header from './Components/Header'
 
 function App() {
   const formattage = (jour, heure) => {
